@@ -1,0 +1,4 @@
+nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+odds = nums.select { |num| num if num.odd? }
+p odds
